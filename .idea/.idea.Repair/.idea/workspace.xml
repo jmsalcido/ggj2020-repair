@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1c2a7b8-ccb5-40c1-a114-23fe58f29339" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TimerStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TimerStatus.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Repair/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Repair/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Repair/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Repair/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Repair/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Repair/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ComboManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ComboManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimerStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimerStatus.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +29,8 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PointsStatus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ComboManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimerStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ComboManager.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580624736806</updated>
-      <workItem from="1580624742082" duration="5032000" />
+      <workItem from="1580624742082" duration="5287000" />
     </task>
     <servers />
   </component>
@@ -211,29 +209,16 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/ComboManager.cs</url>
-          <line>88</line>
+          <line>92</line>
           <properties documentPath="$PROJECT_DIR$/Assets/Scripts/ComboManager.cs" initialLine="68">
             <startOffsets>
-              <option value="2342" />
+              <option value="2456" />
             </startOffsets>
             <endOffsets>
-              <option value="2393" />
+              <option value="2507" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/ComboManager.cs</url>
-          <line>24</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/ComboManager.cs" initialLine="24">
-            <startOffsets>
-              <option value="656" />
-            </startOffsets>
-            <endOffsets>
-              <option value="707" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

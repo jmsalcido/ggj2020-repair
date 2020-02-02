@@ -2,24 +2,28 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
 public class ComboManager : MonoBehaviour
 {
     public GameObject health;
     public GameObject pointsManager;
+    public GameObject timerObject;
     
-    public UnityEngine.UI.Text firstButtonText;
-    public UnityEngine.UI.Text secondButtonText;
-    public UnityEngine.UI.Text thirdButtonText;
+    public Text firstButtonText;
+    public Text secondButtonText;
+    public Text thirdButtonText;
     
     private List<List<string>> _comboPermutations;
     private List<string> _actualCombo;
     private Queue<string> _input;
+    private TimerStatus _timerStatus;
 
     // Start is called before the first frame update
     public void Start()
     {
+        _timerStatus = timerObject.GetComponent<TimerStatus>();
         GenerateCombos();
         SetRandomCombo();
         Debug.Log(string.Join<string>(", ", _actualCombo));
@@ -96,7 +100,9 @@ public class ComboManager : MonoBehaviour
             Debug.Log("Quitale vida perro");
             health.GetComponent<Health>().RemoveLive();
         }
-        
+
+        _timerStatus.timeValue = 3;
+        _timerStatus.ResetTimer();
         ResetInput();
     }
 }

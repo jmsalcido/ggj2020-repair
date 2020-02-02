@@ -25,6 +25,11 @@ public class TimerStatus : MonoBehaviour
         timerValueText.text = _countdownTimer.ToString();
     }
 
+    public void ResetTimer()
+    {
+        _countdownTimer = timeValue;
+    }
+
     IEnumerator LoseTime()
     {
         while (true)
