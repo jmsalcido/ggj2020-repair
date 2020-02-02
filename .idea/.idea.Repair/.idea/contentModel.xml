@@ -10,6 +10,7 @@
           <e p="ComboManager.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="PointsStatus.cs" t="Include" />
+          <e p="TimerStatus.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
