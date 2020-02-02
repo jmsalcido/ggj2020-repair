@@ -14,8 +14,7 @@ public class TimerStatus : MonoBehaviour
     void Start()
     {
         _health = healthGameObject.GetComponent<Health>();
-        _countdownTimer = timeValue;
-        StartCoroutine("LoseTime");
+        ResetTimer();
         Time.timeScale = 1; //Just making sure that the timeScale is right
     }
 
@@ -27,7 +26,9 @@ public class TimerStatus : MonoBehaviour
 
     public void ResetTimer()
     {
+        StopCoroutine("LoseTime");
         _countdownTimer = timeValue;
+        StartCoroutine("LoseTime");
     }
 
     IEnumerator LoseTime()
